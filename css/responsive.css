@@ -1,0 +1,67 @@
+/* Responsive starts here */
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (max-width: 1199px) {
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        min-width: 350px;
+    }
+	.header_content {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 18px;
+    }
+    .logo-title {
+        margin-bottom: 15px;
+    }
+    .search {
+        margin-bottom: 15px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    } 
+    .tabcontent.films.active-content {
+        margin: 0 auto;
+    }
+    .films-gallery {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .gallery-item:nth-child(1n+2) {
+        margin: 0;
+    }
+    .img-wrapper p {
+        width: 244px;
+    }    
+    .genres {
+        display: inline-block;
+    }
+    .channels-list {
+        display: block;
+    }
+    .list-item img {
+        margin: 0;
+    }
+    .footer p {
+        width: 330px;
+    }
+}

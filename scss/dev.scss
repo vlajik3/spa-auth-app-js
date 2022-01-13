@@ -1,0 +1,9 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    @extend .flex;
+}

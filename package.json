@@ -1,0 +1,15 @@
+{
+  "name": "videoservice",
+  "version": "1.0.0",
+  "description": "npmInit",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "vlajik3",
+  "license": "",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
