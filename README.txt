@@ -1,3 +1,4 @@
+https://vlajik3.github.io/spa-auth-app-js/
 For authorization enter:
 login: admin
 password: 123
